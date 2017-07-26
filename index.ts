@@ -71,6 +71,10 @@ export function filenameinfo(file: string): Iinfo {
             info.extensionType = 'unknown'
 
             break
+        case "js":
+            info.extensionFamily = 'sources'
+            info.extensionType = 'javascript'
+            break
         default:
             info.extensionFamily = 'unknown'
 
