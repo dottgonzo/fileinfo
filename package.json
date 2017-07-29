@@ -1,6 +1,6 @@
 {
   "name": "filenameinfo",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "File informations",
   "main": "index.js",
   "scripts": {
