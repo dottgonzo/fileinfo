@@ -28,6 +28,15 @@ export function filenameinfo(file: string): Iinfo {
             info.contentType = 'video/mp4'
 
             break
+
+        case "m3u8":
+            info.extensionFamily = 'video'
+            info.extensionType = 'mpeg4'
+            info.contentType = 'application/x-mpegURL'
+
+            break
+
+
         case "flv":
             info.extensionFamily = 'video'
             info.extensionType = 'mpeg4'
